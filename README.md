@@ -3,9 +3,9 @@
 # Day 1
 1. [Swap two Numbers](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/swapTwoNumbers.java)
 2. [Reverse a Number](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/reverseANumber.java) 
-3. Reverse a String 
-4. Palindrome Number 
-5. Palindrome String
+3. [Reverse a String](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/reverseString.java)
+4. [Palindrome Number](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/palindromeNumber.java) 
+5. [Palindrome String](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/palindromeString.java)
 
 # Day 2
 6. Count the number of digits in a number 
