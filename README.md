@@ -1,7 +1,7 @@
 # BasicCodingQuestions
 
 # Day 1
-1. [Swap two Numbers](https://github.com/kartik2828/BasicCodingQuestions/blob/01626506c2d3ffbabf27b05e8c99043b31126ef8/Solutions/src/Day1/swapTwoNumbers.java)
+1. [Swap two Numbers](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/swapTwoNumbers.java)
 2. Reverse a Number 
 3. Reverse a String 
 4. Palindrome Number 
