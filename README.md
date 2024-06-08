@@ -10,9 +10,9 @@
 # Day 2
 6. [Count the number of digits in a number](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day2/countOfDigits.java)
 7. [Count the number of even and odd digits in a number](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day2/countEvenOdd.java) 
-8. Count the sum of digits in a number 
-9. Find the largest of 3 Numbers 
-10. Generate Fibonacci series
+8. [Count the sum of digits in a number](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day2/sumOfDigits.java)
+9. [Find the largest of 3 Numbers](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day2/findLargest.java)
+10. [Generate Fibonacci series](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day2/fibonacciSeries.java)
 
 # Day 3
 11. Check whether the given number is prime or not
