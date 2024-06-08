@@ -1,22 +1,19 @@
 # BasicCodingQuestions
 
 # Basic Questions in Java up to 4LPA 
- <Details> <Summary># Day 1</Summary>
-
-
-   Here is the table with the three columns:
-
+ <Details> <summary> <h2>Day 1</h2></summary>
+  
 | Question No | Topic Name | Link |
-|:-----:|:-----:|:-----:|   
-| 1 | Swap two Numbers | [Swap two Numbers](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/swapTwoNumbers.java) |
-| 2 | Reverse a Number | [Reverse a Number](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/reverseANumber.java) |
-| 3 | Reverse a String | [Reverse a String](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/reverseString.java) |
-| 4 | Palindrome Number | [Palindrome Number](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/palindromeNumber.java) |
-| 5 | Palindrome String | [Palindrome String](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/palindromeString.java) |
+| --- | --- | --- |
+| 1 | Swap two Numbers | [Link](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/swapTwoNumbers.java) |
+| 2 | Reverse a Number | [Link](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/reverseANumber.java) |
+| 3 | Reverse a String | [Link](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/reverseString.java) |
+| 4 | Palindrome Number | [Link](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/palindromeNumber.java) |
+| 5 | Palindrome String | [Link](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day1/palindromeString.java) |
  </Details>
- 
-# Day 2
 
+ <Details> <summary> <h2>Day 2</h2></summary>
+  
 | Question No | Topic Name | Link |
 | --- | --- | --- |
 | 6 | Count the number of digits in a number | [Link](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day2/countOfDigits.java) |
@@ -24,6 +21,7 @@
 | 8 | Count the sum of digits in a number | [Link](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day2/sumOfDigits.java) |
 | 9 | Find the largest of 3 Numbers | [Link](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day2/findLargest.java) |
 | 10 | Generate Fibonacci series | [Link](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day2/fibonacciSeries.java) |
+ </Details>
 
 # Day 3
 11. Check whether the given number is prime or not
@@ -52,9 +50,8 @@
 28. How to reverse each word in a string 
 29. How to reverse an array
 
-# 4-8 LPA level Questions of DSA 
-
-Here are the topics and their corresponding links in the format you requested:
+# 4-8 LPA level Questions of DSA
+<Details> <summary> <h2>Array </h2></summary>
 
 | Topic | Name | Link |
 |:-----:|:-----:|:-----:|                                                                                                                          
@@ -78,6 +75,9 @@ Here are the topics and their corresponding links in the format you requested:
 |  | Permutation In String | [Link](https://leetcode.com/problems/permutation-in-string/description/) |
 |  | Minimum Window Substring | [Link](https://leetcode.com/problems/minimum-window-substring/description/) |
 |  | Sliding Window Maximum | [Link](https://leetcode.com/problems/sliding-window-maximum/description/) |
+</Details>
+
+<Details> <summary> <h2>Linked List </h2></summary>
 
 | Topic | Name | Link |
 |:-----:|:-----:|:-----:|
@@ -92,23 +92,10 @@ Here are the topics and their corresponding links in the format you requested:
 |  | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/description/) |
 |  | Merge K Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/description/) |
 |  | Reverse Nodes In K Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) |
+</Details>
 
-| Topic | Name | Link |
-|:-----:|:-----:|:-----:|
-| Linked List | Reverse Linked List | [Link](https://leetcode.com/problems/reverse-linked-list/description/) |
-|  | Merge Two Sorted Lists | [Link](https://leetcode.com/problems/merge-two-sorted-lists/description/) |
-|  | Reorder List | [Link](https://leetcode.com/problems/reorder-list/description/) |
-|  | Remove Nth Node From End of List | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) |
-|  | Copy List With Random Pointer | [Link](https://leetcode.com/problems/copy-list-with-random-pointer/description/) |
-|  | Add Two Numbers | [Link](https://leetcode.com/problems/add-two-numbers/description/) |
-|  | Linked List Cycle | [Link](https://leetcode.com/problems/linked-list-cycle/description/) |
-|  | Find The Duplicate Number | [Link](https://leetcode.com/problems/find-the-duplicate-number/description/) |
-|  | LRU Cache | [Link](https://leetcode.com/problems/lru-cache/description/) |
-|  | Merge K Sorted Lists | [Link](https://leetcode.com/problems/merge-k-sorted-lists/description/) |
-|  | Reverse Nodes In K Group | [Link](https://leetcode.com/problems/reverse-nodes-in-k-group/description/) |
-
-<Details>
- <Summary># 8-12 LPA Level Questions of DSA</Summary> 
+# 8-12 LPA Level Questions of DSA
+<Details> <Summary><h2>Stack</h2></Summary> 
 
 | Topic | Name | Link |
 |:-----:|:-----:|:-----:|
@@ -119,7 +106,10 @@ Here are the topics and their corresponding links in the format you requested:
 |  | Daily Temperatures | [Link](https://leetcode.com/problems/daily-temperatures/description/) |
 |  | Car Fleet | [Link](https://leetcode.com/problems/car-fleet/description/) |
 |  | Largest Rectangle In Histogram | [Link](https://leetcode.com/problems/largest-rectangle-in-histogram/description/) |
+</Details>
 
+<Details> <Summary><h2>Binary Search</h2></Summary> 
+ 
 | Topic | Name | Link |
 |:-----:|:-----:|:-----:|
 | Binary Search | Binary Search | [Link](https://leetcode.com/problems/binary-search/description/) |
@@ -129,6 +119,9 @@ Here are the topics and their corresponding links in the format you requested:
 |  | Search In Rotated Sorted Array | [Link](https://leetcode.com/problems/search-in-rotated-sorted-array/description/) |
 |  | Time Based Key Value Store | [Link](https://leetcode.com/problems/time-based-key-value-store/description/) |
 |  | Median of Two Sorted Arrays | [Link](https://leetcode.com/problems/median-of-two-sorted-arrays/description/) |
+</Details>
+
+<Details> <Summary><h2>Backtracking</h2></Summary> 
 
 | Topic | Name | Link |
 |:-----:|:-----:|:-----:|
@@ -141,7 +134,6 @@ Here are the topics and their corresponding links in the format you requested:
 |  | Palindrome Partitioning | [Link](https://leetcode.com/problems/palindrome-partitioning/description/) |
 |  | Letter Combinations of a Phone Number | [Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/) |
 |  | N Queens | [Link](https://leetcode.com/problems/n-queens/description/) |
-
 </Details>
  
 
