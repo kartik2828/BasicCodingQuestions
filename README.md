@@ -23,12 +23,16 @@
 | 10 | Generate Fibonacci series | [Link](https://github.com/kartik2828/BasicCodingQuestions/blob/main/Solutions/src/Day2/fibonacciSeries.java) |
  </Details>
 
-# Day 3
-11. Check whether the given number is prime or not
-12. How to generate random numbers & strings 
-13. Factorial of a number 
-14. Find the sum of elements in an array 
-15. Print even & odd numbers from an array
+<Details> <summary> <h2>Day 3</h2></summary>
+
+| Question No | Topic Name | Link |
+| --- | --- | --- |
+| 11 | Check whether the given number is prime or not | - |
+| 12 | How to generate random numbers & strings | - |
+| 13 | Factorial of a number | - |
+| 14 | Find the sum of elements in an array | - |
+| 15 | Print even & odd numbers from an array | - |
+ </Details>
 
 # Day 4
 16. How to check the equality of two arrays 
