@@ -28,7 +28,7 @@
 | Question No | Topic Name | Link |
 | --- | --- | --- |
 | 11 | Check whether the given number is prime or not | - |
-| 12 | How to generate random numbers & strings | - |
+| 12 | Find the Smallest and largest element in an array  | - |
 | 13 | Factorial of a number | - |
 | 14 | Find the sum of elements in an array | - |
 | 15 | Print even & odd numbers from an array | - |
