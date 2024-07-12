@@ -1,23 +1,23 @@
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 class Demo{
 
+   // pallindrome string
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+        String name1 = sc.nextLine();
         Demo obj = new Demo();
+        System.out.println(obj.demo1(name1));
 
-        System.out.println(obj.demo1(n));
     }
 
-    boolean demo1(int num){
-        int rev  = 0;
-        int originalNumber = num;
+    boolean demo1(String name){
+        StringBuilder sb = new StringBuilder();
+        sb.append(name);
+        sb.reverse();
 
-        while (num!=0){
-            rev = rev*10 + num%10;
-            num = num/10;
-        }
-        return rev == originalNumber;
+        return sb.toString().equals(name);
     }
 }
