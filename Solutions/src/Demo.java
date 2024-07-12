@@ -1,14 +1,11 @@
-package Day1;
-
 import java.util.Scanner;
 
-// 4. Palindrome Number
-class palindromeNumber {
+class Demo{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        palindromeNumber obj = new palindromeNumber();
+        Demo obj = new Demo();
 
         System.out.println(obj.demo1(n));
     }
