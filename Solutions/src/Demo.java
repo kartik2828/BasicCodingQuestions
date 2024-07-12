@@ -3,17 +3,19 @@ import java.util.Scanner;
 
 class Demo{
 
-    // 2. Reverse a String
+    // Swap two numbers
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        String name = sc.nextLine();
+       int num1 = sc.nextInt();
+       int num2 = sc.nextInt();
 
-        StringBuilder sb = new StringBuilder();
-        sb.append(name);
+       int temp = num1;
+       num1 = num2;
+       num2 = temp;
 
-        System.out.println(sb.reverse());
+        System.out.println(num1 + "," + num2);
 
 
     }
