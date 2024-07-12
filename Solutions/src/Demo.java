@@ -3,21 +3,17 @@ import java.util.Scanner;
 
 class Demo{
 
-   // pallindrome string
+    // 2. Reverse a Number
 
     public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
-        String name1 = sc.nextLine();
-        Demo obj = new Demo();
-        System.out.println(obj.demo1(name1));
-
-    }
-
-    boolean demo1(String name){
-        StringBuilder sb = new StringBuilder();
-        sb.append(name);
-        sb.reverse();
-
-        return sb.toString().equals(name);
+        int num = sc.nextInt();
+        int rev = 0;
+        while (num!=0){
+            rev = rev*10 + num%10;
+            num = num/10;
+        }
+        System.out.println(rev);
     }
 }
