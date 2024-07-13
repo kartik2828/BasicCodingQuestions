@@ -1,25 +1,40 @@
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
-class Demo{
+import java.util.Scanner;
 
-    // palindrome Number
+import java.util.Scanner;
+
+public class  Demo{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num1 = sc.nextInt();
+        // Taking Size of an array
+        System.out.println("Enter the Size of an array: ");
+        int size = sc.nextInt();
 
-        System.out.println(myuFunction(num1));
-
-    }
-
-    static Boolean myuFunction(int num){
-        int originalNumber = num;
-        int rev = 0;
-        while (num!=0){
-           rev  = rev*10 + num%10;
-           num = num/10;
+        int arr[] = new int[size];
+        // Taking array inputs from the user
+        System.out.println("Enter the elements: ");
+        for (int i=0; i<arr.length; i++){
+            arr[i] = sc.nextInt();
         }
-        return rev == originalNumber;
+
+        // calling the function
+        int result = largestElement(arr);
+        System.out.println("Largest element is: "+result);
+
     }
+
+    static  int largestElement(int arr[]){
+        int largest = arr[0];
+        for (int i=0; i< arr.length-1; i++){
+            if(arr[i]>largest){
+                largest = arr[i];
+            }
+        }
+        return largest;
     }
+}
+
+
+

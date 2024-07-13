@@ -3,20 +3,43 @@ package Day2;
 import java.util.Scanner;
 // 9. Find the largest of 3 Numbers
 
-public class findLargest {
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+import java.util.Scanner;
+
+public class  findLargest{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int num1 = sc.nextInt();
-        int num2 = sc.nextInt();
-        int num3 = sc.nextInt();
+        // Taking Size of an array
+        System.out.println("Enter the Size of an array: ");
+        int size = sc.nextInt();
 
-        if (num1>num2 && num1>num3){
-            System.out.println(num1+" is largest");
-        } else if (num2>num1 & num2>num3) {
-            System.out.println(num2+" is largest");
-        }else {
-            System.out.println(num3+" is largest");
+        int arr[] = new int[size];
+        // Taking array inputs from the user
+        System.out.println("Enter the elements: ");
+        for (int i=0; i<arr.length; i++){
+            arr[i] = sc.nextInt();
         }
+
+        // calling the function
+        int result = largestElement(arr);
+        System.out.println("Largest element is: "+result);
+
+    }
+
+    static  int largestElement(int arr[]){
+        int largest = arr[0];
+        for (int i=0; i< arr.length-1; i++){
+            if(arr[i]>largest){
+                largest = arr[i];
+            }
+        }
+        return largest;
     }
 }
+
+
+
