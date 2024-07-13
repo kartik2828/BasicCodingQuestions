@@ -3,21 +3,23 @@ import java.util.Scanner;
 
 class Demo{
 
-    // reverseString
+    // palindrome Number
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String name1 = sc.nextLine();
+        int num1 = sc.nextInt();
 
-        System.out.println(myuFunction(name1));
+        System.out.println(myuFunction(num1));
 
     }
 
-    static Boolean myuFunction(String name){
-
-        StringBuilder sb = new StringBuilder();
-        sb.append(name);
-        sb.reverse();
-        return sb.toString().equals(name);
+    static Boolean myuFunction(int num){
+        int originalNumber = num;
+        int rev = 0;
+        while (num!=0){
+           rev  = rev*10 + num%10;
+           num = num/10;
+        }
+        return rev == originalNumber;
     }
     }
