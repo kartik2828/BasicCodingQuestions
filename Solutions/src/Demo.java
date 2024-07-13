@@ -3,36 +3,35 @@ import java.util.Scanner;
 import java.util.Scanner;
 
 import java.util.Scanner;
+// sum of digits
 
 public class  Demo{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        // Taking Size of an array
+
+        // Taking the Size of an array
         System.out.println("Enter the Size of an array: ");
         int size = sc.nextInt();
 
-        int arr[] = new int[size];
-        // Taking array inputs from the user
-        System.out.println("Enter the elements: ");
+        int arr[] =  new int[size];
+
+        // Taking the input element
+        System.out.println("Enter the element: ");
         for (int i=0; i<arr.length; i++){
             arr[i] = sc.nextInt();
         }
 
-        // calling the function
-        int result = largestElement(arr);
-        System.out.println("Largest element is: "+result);
-
+        // result
+        int result = digitsSum(arr);
+        System.out.println("Sum is: "+result);
     }
-
-    static  int largestElement(int arr[]){
-        int largest = arr[0];
-        for (int i=0; i< arr.length-1; i++){
-            if(arr[i]>largest){
-                largest = arr[i];
-            }
+    static int digitsSum(int arr[]){
+        int sum = 0;
+        for(int i=0; i< arr.length; i++){
+            sum = sum + arr[i];
         }
-        return largest;
+        return sum;
     }
 }
 
