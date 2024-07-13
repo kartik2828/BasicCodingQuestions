@@ -7,13 +7,17 @@ class Demo{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        String name1 = sc.nextLine();
 
-        String name = sc.nextLine();
-        StringBuilder sb = new StringBuilder();
-        sb.append(name);
-        String result = String.valueOf(sb.reverse());
+        System.out.println(myuFunction(name1));
 
-        System.out.println(result);
     }
 
+    static Boolean myuFunction(String name){
+
+        StringBuilder sb = new StringBuilder();
+        sb.append(name);
+        sb.reverse();
+        return sb.toString().equals(name);
+    }
     }
