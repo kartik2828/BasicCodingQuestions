@@ -3,35 +3,24 @@ import java.util.Scanner;
 import java.util.Scanner;
 
 import java.util.Scanner;
-// count of digits
+// Pallindrome Number
 
 public class  Demo{
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        // Taking the Size of an array
-        System.out.println("Enter the Size of an array: ");
-        int size = sc.nextInt();
-
-        int arr[] =  new int[size];
-
-        // Taking the input element
-        System.out.println("Enter the element: ");
-        for (int i=0; i<arr.length; i++){
-            arr[i] = sc.nextInt();
-        }
-
-        // result
-        int result = digitsSum(arr);
-        System.out.println("count is: "+result);
+Scanner sc = new Scanner(System.in);
+        int num1 = sc.nextInt();
+        System.out.println(myFunction(num1));
     }
-    static int digitsSum(int arr[]){
-        int  count = 0;
-        for(int i=0; i< arr.length; i++){
-            count++;
+
+    static boolean myFunction(int num){
+        int finalNumber =  num;
+        int rev  = 0;
+        while (num!=0){
+            rev = rev*10 + num%10;
+            num = num/10;
         }
-        return count;
+        return finalNumber ==rev;
     }
 }
 
