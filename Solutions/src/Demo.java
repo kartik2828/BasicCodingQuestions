@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// count of digits of an array
+// sum of digits of an array
 
 public class  Demo {
 
@@ -25,11 +25,11 @@ public class  Demo {
     }
 
     static int myfunction(int arr[]){
-        int count = 0;
+        int sum = 0;
         for (int i=0; i< arr.length; i++){
-            count ++;
+            sum = sum + arr[i];
         }
-        return count;
+        return sum;
     }
 }
 
