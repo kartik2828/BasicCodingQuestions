@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// find largest
+// count even and odd
 
 public class  Demo {
 
@@ -20,18 +20,24 @@ public class  Demo {
         }
 
         // output
-        System.out.println("largest number is: "+ myfunction(arr));
+        int[] counts = myfunction(arr);
+        System.out.println(counts[0]);
+        System.out.println(counts[1]);
+
 
     }
 
-    static int myfunction(int arr[]){
-        int largest = arr[0];
+    static int[] myfunction(int arr[]){
+        int even = 0;
+        int odd = 0;
         for (int i=0; i< arr.length; i++){
-           if (arr[i]>largest){
-               largest = arr[i];
+           if (arr[i]%2==0){
+               even++;
+           }else {
+               odd++;
            }
         }
-        return largest;
+        return new int[] {even,odd};
     }
 }
 
