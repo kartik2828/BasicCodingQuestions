@@ -1,24 +1,23 @@
 import java.util.Scanner;
-
-import java.util.Scanner;
-
-import java.util.Scanner;
-// Pallindrome String
+// reverse a number
 
 public class  Demo{
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String name1 = sc.nextLine();
-        System.out.println(myFunction(name1));
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
+        System.out.println(myFunction(num1 , num2));
+
     }
 
-    static boolean myFunction(String name){
-                StringBuilder sb = new StringBuilder();
-                sb.append(name);
-                sb.reverse();
+    static String myFunction(int num1, int num2){
 
-                return sb.toString().equals(name);
+        int temp  =  num1;
+        num1 = num2;
+        num2 = temp;
+
+        return num1 + "," + num2 ;
 
     }
 }
