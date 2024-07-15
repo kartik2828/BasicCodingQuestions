@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// sum of digits of an array
+// find largest
 
 public class  Demo {
 
@@ -20,16 +20,18 @@ public class  Demo {
         }
 
         // output
-        System.out.println(myfunction(arr));
+        System.out.println("largest number is: "+ myfunction(arr));
 
     }
 
     static int myfunction(int arr[]){
-        int sum = 0;
+        int largest = arr[0];
         for (int i=0; i< arr.length; i++){
-            sum = sum + arr[i];
+           if (arr[i]>largest){
+               largest = arr[i];
+           }
         }
-        return sum;
+        return largest;
     }
 }
 
