@@ -1,43 +1,25 @@
 import java.util.Scanner;
 
-// count even and odd
+// 10. Generate Fibonacci series (0,1,1,2,3,5...)
 
 public class  Demo {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        // taking array size
-        System.out.println("Enter the array size: ");
-        int size = sc.nextInt();
+        int num = sc.nextInt();
+        int t1 = 0;
+        int t2 = 1;
+        System.out.print("Series is: " + t1 +","+t2);
 
-        int[] arr = new int[size];
-
-        // taking inputs for an array
-        System.out.println("Write the input: ");
-        for (int i=0; i<arr.length; i++){
-            arr[i] = sc.nextInt();
+        for (int i =0; i<num; i++){
+            int sum = t1 + t2;
+            System.out.print(","+sum);
+            t1=t2;
+            t2 = sum;
         }
 
-        // output
-        int[] counts = myfunction(arr);
-        System.out.println(counts[0]);
-        System.out.println(counts[1]);
 
-
-    }
-
-    static int[] myfunction(int arr[]){
-        int even = 0;
-        int odd = 0;
-        for (int i=0; i< arr.length; i++){
-           if (arr[i]%2==0){
-               even++;
-           }else {
-               odd++;
-           }
-        }
-        return new int[] {even,odd};
     }
 }
 
