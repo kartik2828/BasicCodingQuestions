@@ -1,20 +1,23 @@
 import java.util.Scanner;
 
-// reverse a String
+// reverse a number
 
-public class  Demo{
+public class  Demo {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-   String name = sc.nextLine();
+        int num = sc.nextInt();
+        int rev = 0;
+        while (num != 0) {
 
-   StringBuilder sb = new StringBuilder();
-   sb.append(name);
-        System.out.println(sb.reverse());
+            rev = rev * 10 + num % 10;
+            num = num / 10;
+
+        }
+        System.out.println(rev);
+
 
     }
-
-
 }
 
 
