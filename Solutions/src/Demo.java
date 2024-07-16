@@ -10,15 +10,16 @@ public class  Demo {
         int num = sc.nextInt();
         int t1 = 0;
         int t2 = 1;
-        System.out.print("Series is: " + t1 +","+t2);
+        System.out.println("Series is: "+ t1 +","+ t2);
 
-        for (int i =0; i<num; i++){
+
+        for (int i=0; i<num; i++){
             int sum = t1 + t2;
-            System.out.print(","+sum);
-            t1=t2;
-            t2 = sum;
-        }
+            System.out.println(","+sum);
+            t1 = t2;
+            t2 =sum;
 
+        }
 
     }
 }
