@@ -1,26 +1,34 @@
 import java.util.Scanner;
 
-// 10. Generate Fibonacci series (0,1,1,2,3,5...)
+// array Sum
 
 public class  Demo {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        int num = sc.nextInt();
-        int t1 = 0;
-        int t2 = 1;
-        System.out.println("Series is: "+ t1 +","+ t2);
+        // Enter the array size
+        System.out.println("Enter the array size: ");
+        int size = sc.nextInt();
 
+        int arr[] = new int[size];
 
-        for (int i=0; i<num; i++){
-            int sum = t1 + t2;
-            System.out.println(","+sum);
-            t1 = t2;
-            t2 =sum;
-
+        // enter the array element
+        System.out.println("Enter the array element: ");
+        for (int i=0; i<size; i++){
+            arr[i] = sc.nextInt();
         }
+        // output
+        int result = myFunction(arr);
+        System.out.println("Sum of an array is: " + result);
+    }
 
+    static int myFunction(int[] arr1){
+        int sum = 0;
+        for (int i=0; i<= arr1.length; i++){
+            sum = sum + i;
+        }
+        return sum;
     }
 }
 
