@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// factorial
+// prime number
 
 public class  Demo {
 
@@ -13,17 +13,19 @@ public class  Demo {
         int size = sc.nextInt();
 
         // output
-       int result = myFunction(size);
-        System.out.println("Factorial is: "+ result);
+       boolean result  = myFunction(size);
+        System.out.println(result);
 
 
     }
-    static int myFunction(int num){
-        int fact = 1 ;
-        for (int i=1; i<=num; i++){
-            fact = fact * i;
+    static boolean myFunction(int num){
+        for (int i=2; i<=Math.sqrt(num); i++){
+            if (num%i==0){
+                return false;
+            }
+
         }
-        return fact;
+        return true;
     }
 
 }
