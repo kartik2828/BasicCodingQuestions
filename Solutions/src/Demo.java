@@ -1,6 +1,7 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
-// array Sum
+// even odd array
 
 public class  Demo {
 
@@ -19,16 +20,22 @@ public class  Demo {
             arr[i] = sc.nextInt();
         }
         // output
-        int result = myFunction(arr);
-        System.out.println("Sum of an array is: " + result);
+        ArrayList<Integer> result[] = myFunction(arr);
+        System.out.println("odd: " + result[1]);
+        System.out.println("Even: "+ result[0]);
     }
 
-    static int myFunction(int[] arr1){
-        int sum = 0;
-        for (int i=0; i<= arr1.length; i++){
-            sum = sum + i;
+    static ArrayList<Integer>[] myFunction(int[] arr1){
+        ArrayList<Integer> even  = new ArrayList<>();
+        ArrayList<Integer> odd = new ArrayList<>();
+        for (int n:arr1){
+            if (n%2==0){
+                even.add(n);
+            }else {
+                odd.add(n);
+            }
         }
-        return sum;
+        return  new ArrayList[]{even,odd};
     }
 }
 
